@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "Novilla Partner Program",
+  "projectDescription": "Novilla's partner and affiliate program documentation — helping affiliates, influencers, and wholesale partners promote and sell Novilla sleep products to earn commissions and access exclusive pricing.",
   "theme": "almond",
-  "name": "Novilla Partner Program",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -94,24 +92,27 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Contact Us",
-        "href": "mailto:affiliates@novilla.us"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Join Now",
-      "href": "https://app.impact.com/campaign-campaign-info-v2/Novilla.brand"
-    }
-  },
-  "footer": {
-    "socials": {
-      "facebook": "https://www.facebook.com/p/Novilla-Home-100063552818096/",
-      "instagram": "https://www.instagram.com/novilla_home/",
-      "youtube": "https://www.youtube.com/channel/UCTqFW5C3-Js_GHMQPxbUA5g"
-    }
-  }
+  "keyFeatures": [
+    "6%–10% commission on every sale via affiliate links",
+    "180-day cookie tracking window",
+    "5% default customer discount code for affiliates",
+    "Free product samples for reviews and giveaways",
+    "Up to 60% off on mattresses for partners",
+    "Monthly payouts via PayPal on or before the 15th",
+    "Co-branded marketing assets and creatives",
+    "Wholesale pricing with volume discounts (10%–30% off)",
+    "100-night sleep trial on all products",
+    "10-year limited warranty on mattresses",
+    "CertiPUR-US and OEKO-TEX certified products",
+    "Free U.S. shipping on all orders"
+  ],
+  "publicApiSurface": [
+    "Affiliate dashboard (via Refersion / Impact)",
+    "Tracking links and discount codes",
+    "Commission reporting",
+    "Wholesale order portal (business.sweetnight.com)",
+    "B2B registration form",
+    "PayPal payout system",
+    "Partner creatives library"
+  ]
 }
